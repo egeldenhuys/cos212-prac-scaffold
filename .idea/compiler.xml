@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="cos212-prac-scaffold.main" target="1.8" />
+      <module name="cos212-prac-scaffold.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

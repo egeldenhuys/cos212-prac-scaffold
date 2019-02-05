@@ -14,7 +14,19 @@ public class HelloWorldTest {
 
 
 		Assert.assertNotNull(result);
-		Assert.assertEquals(result, "Hello World!1");
+		Assert.assertEquals(result, "Hello World!");
+
+	}
+
+	@Test()
+	public void Foo_ThisShouldFail() {
+
+		HelloWorld hello = new HelloWorld();
+		String result = hello.foo();
+
+
+		Assert.assertNotNull(result);
+		Assert.assertEquals(result, "Goodbye");
 
 	}
 

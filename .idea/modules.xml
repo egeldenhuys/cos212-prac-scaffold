@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cos212-prac-scaffold.iml" filepath="$PROJECT_DIR$/cos212-prac-scaffold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cos212-prac-scaffold.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cos212-prac-scaffold.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cos212-prac-scaffold.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cos212-prac-scaffold.test.iml" />
+    </modules>
+  </component>
+</project>
