@@ -6,28 +6,28 @@ import org.testng.annotations.*;
 
 public class HelloWorldTest {
 
-	@Test()
-	public void Foo_ReturnsHelloWorld() {
+    @Test()
+    public void Foo_ReturnsHelloWorld() {
 
-		HelloWorld hello = new HelloWorld();
-		String result = hello.foo();
-
-
-		Assert.assertNotNull(result);
-		Assert.assertEquals(result, "Hello World!");
-
-	}
-
-	@Test()
-	public void Foo_ThisShouldFail() {
-
-		HelloWorld hello = new HelloWorld();
-		String result = hello.foo();
+        HelloWorld hello = new HelloWorld();
+        String result = hello.foo();
 
 
-		Assert.assertNotNull(result);
-		Assert.assertEquals(result, "Goodbye");
+        Assert.assertNotNull(result);
+        Assert.assertEquals(result, "Hello World!");
 
-	}
+    }
+
+    @Test()
+    public void Foo_ThisShouldFail() {
+
+        HelloWorld hello = new HelloWorld();
+        String result = hello.foo();
+
+
+        Assert.assertNotNull(result);
+        Assert.assertEquals(result, "Goodbye");
+
+    }
 
 }
